@@ -1,0 +1,32 @@
+.counter{
+    color: darkblue;
+}
+.result{
+    transform: scale(2);
+}
+.minus{
+    background-color: crimson;
+    border: none;
+    border-radius: 7px;
+    color: whitesmoke;
+    margin-right: 40px;
+    box-shadow: 1px 2px red;
+}
+.plus{
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 7px;
+    color: whitesmoke;
+    box-shadow: 1px 2px #61dafb;
+}
+.plus:hover{
+    border: 1px solid bisque;
+}
+.minus:hover{
+    border: 1px solid darkblue;
+}
+.plus, .minus{
+    width: 70px;
+    height: 30px;
+
+}
