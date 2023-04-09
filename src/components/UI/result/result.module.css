@@ -1,0 +1,16 @@
+p{
+    margin: 0 0 50px 0;
+}
+h1{
+    margin: 20px 0 50px 0;
+}
+button{
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: navajowhite;
+    color: darkblue;
+}
+button:hover{
+    border: 1px solid black;
+}

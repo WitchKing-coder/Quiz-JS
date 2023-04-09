@@ -1,0 +1,21 @@
+.answers, progress, h1{
+    margin: 0 0 70px 0;
+}
+progress{
+    height: 10%;
+    width: 60%;
+    color: lightblue;
+}
+progress::-webkit-progress-value {
+    background: green;
+}
+.questionsForm{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.answers{
+    display: flex;
+    justify-content: space-evenly;
+}
